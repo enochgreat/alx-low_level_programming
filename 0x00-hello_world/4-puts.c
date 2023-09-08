@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main: Hello, puts
+ *main: msg
  *
- *Return: print out the message
+ *Return: return 0
  */
 
 int main(void)

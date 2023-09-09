@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /*
- *main - printf task 4
- *Return: 0
+ *main - printf task
+ *Return: return 0
  * 
  */
-
 int main(void)
 
 {

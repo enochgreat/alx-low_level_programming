@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - print with proper grammar
+ * main: print with proper grammar
  * Return: 0
  */
 

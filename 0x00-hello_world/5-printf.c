@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /*
- * main : print grammar
- * 
- * return : return 0
+ * main - print grammar
+ * Return: return 0
  */
 
-int main (void)
+int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf( "with proper grammar, but the outcome is a piece of art,\n");
 	return(0);
 }

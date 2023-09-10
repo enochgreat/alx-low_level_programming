@@ -6,7 +6,7 @@
 	int main(void)
 {	
 	char c;
-	c = 'a' == 'A';
+	c = 'a' == 'Z';
 	while
 		(c <= 'z' && 'Z') {
 			putchar(c);

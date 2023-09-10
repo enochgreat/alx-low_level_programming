@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - If statement
- *
- *Retutn: Success (0)
+ *main - Positive anything is better than negative nothing
+ *Return: Success (0)
  */
 	int main(void)
 {
@@ -19,5 +18,4 @@
 	if (n < 0)
 		printf("%d is negative\n", n);
 	return (0);
-
 }

@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <limits.h>
-/*
- *main - Size is not grandeur, and territory does not make a nation
- *return: return 0
+/**
+ * main - Size is not grandeur, and territory
+ * Return: return 0
  */
+
 	int main(void)
 {
+
 	char c;
 	int i;
 	float f;

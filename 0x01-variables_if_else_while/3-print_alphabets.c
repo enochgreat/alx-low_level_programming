@@ -4,16 +4,14 @@
  * Return: success 0
  */
 	int main(void)
-{	
+{
 	char c;
-	c = 'a' == 'Z';
-	while
-		(c <= 'z' && 'Z') {
-			putchar(c);
-			c++;
-		}
-	putchar('\n');
 
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (c = 'A'; c <= 'Z'; c++)
+		putchar(c);
+	putchar('\n');
 	return (0);
 }
 

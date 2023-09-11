@@ -14,7 +14,7 @@
 	for (j = 'a'; j <= 'f'; j++)
 		putchar(j);
 	putchar('\n');
-	return(0);
+	return (0);
 
 }
 

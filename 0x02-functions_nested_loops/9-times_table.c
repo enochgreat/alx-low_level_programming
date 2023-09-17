@@ -2,9 +2,6 @@
 #include <stdio.h>
 /**
  * times_table - multiplication table
- * @i: parameter 1
- * @j: paramrter 2
- * @r: parameter 3
  *  Return: Result
  */
 
@@ -14,16 +11,16 @@ void times_table(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 10; j++)	
-			
-		{	r = i*j;
-		if(j == 0)
+		for (j = 0; j < 10; j++)
+
+		{	r = i * j;
+		if (j == 0)
 			printf("%d", r);
 		else
 			printf("%2d", r);
-		if(j != 9)
+		if (j != 9)
 			printf(", ");
 		}
 	printf("\n");
 	}
-}	
+}
